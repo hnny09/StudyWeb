@@ -15,3 +15,20 @@ html{
 .top_page_l{
     line-height: 26px;
 }
+.top_page_r {
+    line-height: 26px;
+}
+a{
+    color: #000000;
+}
+.top_page_r li {
+    float: left;
+    padding-right: 10px;
+}
+.top_page_r ul li s{
+    width: 14px;
+    height: 12px;
+    display: inline-block;
+    background:url("../image/icons.jpg");
+    vertical-align: middle;
+}

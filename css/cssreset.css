@@ -60,7 +60,9 @@ var {
     font-style:normal;
     font-weight:normal;
 }
-
+a{
+    text-decoration: none;
+}
 ol,
 ul {
     list-style:none;
