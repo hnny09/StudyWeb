@@ -193,3 +193,76 @@ a{
     border: none;
     color: white;
 }
+.material{
+    border-top: 2px solid #C3D7E4;
+    width: 950px;
+    height: 34px;
+    margin: 0 auto;
+    background: #ECF1F7;
+    margin-top: 14px;
+    line-height: 34px;
+    font-weight: bold;
+    padding-left: 20px;
+
+}
+
+.product{
+    width: 970px;
+    height: 345px;
+    margin: 0 auto;
+    margin-top: 12px;
+
+}
+.product .product_l{
+    width: 729px;
+    height: 345px;
+    background: pink;
+    border: 1px solid #D8D8D8;
+}
+
+.product .product_r{
+    width: 230px;
+    height: 345px;
+    background: bisque;
+
+}
+
+.product .product_l_top{
+    height: 155px;
+    background: gold;
+    padding: 17px 0 0 26px;
+}
+.product .product_l_top .product_l_top_product1{
+    background: white;
+    width: 350px;
+    height: 146px;
+}
+.product .buy {
+    width: 99px;
+    height: 146px;
+}
+.product .explain{
+    width: 251px;
+    height: 146px;
+    background: greenyellow;
+}
+.product .buy .img{
+    height: 100px;
+    border: 1px solid  #CACACA;
+}
+.product .buy .img s{
+    display: inline-block;
+    width: 90px;
+    height: 62px;
+    margin: 10px 4px 0 3px;
+    background: url("../image/icons.jpg") -80px -30px;
+
+}
+.product .buy .btn{
+    width: 99px;
+    height: 26px;
+    background-color: #0A84E3;
+    border: none;
+    color: white;
+    margin-top: 15px;
+}
