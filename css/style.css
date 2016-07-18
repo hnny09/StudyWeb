@@ -326,6 +326,7 @@ a{
     margin-top: 11px;
     border-top: solid 1px #DDDDDD;
     color: #666666;
+    border-bottom: 3px solid green;
 
 }
 .link .link_title{
@@ -334,4 +335,13 @@ a{
 .link .link_content{
     margin-top: 14px;
     margin-left: 61px;
+}
+.aboutMe{
+    height: 91px;
+    width: 970px;
+    margin: 0 auto;
+}
+.aboutMe p {
+    margin-top: 14px;
+    text-align: center;
 }
