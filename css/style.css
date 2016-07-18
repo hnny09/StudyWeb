@@ -216,7 +216,6 @@ a{
 .product .product_l{
     width: 729px;
     height: 345px;
-    background: pink;
     border: 1px solid #D8D8D8;
 }
 
@@ -229,7 +228,11 @@ a{
 
 .product .product_l_top{
     height: 155px;
-    background: gold;
+    padding: 17px 0 0 26px;
+}
+
+.product .product_l_bottom{
+    height: 155px;
     padding: 17px 0 0 26px;
 }
 .product .product_l_top .product_l_top_product1{
@@ -244,7 +247,6 @@ a{
 .product .explain{
     width: 251px;
     height: 146px;
-    background: greenyellow;
 }
 .product .buy .img{
     height: 100px;
@@ -265,4 +267,32 @@ a{
     border: none;
     color: white;
     margin-top: 15px;
+}
+.product .explain .goodWife{
+    font-size: 14px;
+    margin: 10px 0 0 10px;
+}
+.product .explain .auto{
+    color: #8E3601;
+    margin: 13px 0 0 15px;
+}
+.product .explain .money span{
+    color: red;
+}
+.product .explain .money {
+    padding: 23px 0 0 11px;
+}
+
+.product .explain .money s {
+    text-decoration: line-through;
+}
+.product .explain .buyed {
+    font-size: 14px;
+    margin: 28px 0 0 11px;
+
+}
+.product .product_l_line{
+    margin:  0 4px 0 4px;
+    border-top: 1px solid #CCC;
+
 }
