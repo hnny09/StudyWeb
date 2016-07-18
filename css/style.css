@@ -53,7 +53,7 @@ a{
     margin-top: 29px;
 }
 .logo_r_content {
- margin: 5px 5px 5px 4px;
+    margin: 5px 5px 5px 4px;
 }
 .logo_r_search{
     width: 418px;
@@ -90,5 +90,106 @@ a{
     background-color: #0266a3;
 }
 .nav li a:hover{
+    color: white;
+}
+.banner{
+    width: 970px;
+    margin: 0 auto;
+    height: 210px;
+    margin-top: 10px;
+
+}
+.banner .subNav{
+    width: 200px;
+    height: 210px;
+    margin-right: 11px;
+}
+.banner .ad {
+    width: 520px;
+    height: 210px;
+    background: url("../image/icons.jpg") 100px 0px;
+}
+.banner .message{
+    width: 230px;
+    height: 210px;
+}
+.subNav h2 {
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 20px;
+    background-color: #0266a3;
+    color: white;
+}
+.subNav s {
+    display: inline-block;
+    width: 15px;
+    height: 13px;
+    background:url("../image/icons.jpg") -200px -200px;
+    margin-left: 9px;
+    vertical-align: middle;
+
+}
+.subNav li {
+    font-size: 15px;
+    padding-top: 12px;
+}
+.subNav li a {
+    padding-left: 14px;
+}
+.subNav ul {
+    background-color: #ebf0f6;
+    height: 180px;
+}
+.message .message_top{
+    height: 95px;
+    background-color: #f7faff;
+    border: solid 1px #DDDDDD;
+    margin-bottom: 21px;
+}
+
+.message .message_bottom{
+    height: 92px;
+    background-color: #F7F7F7;
+}
+.message .message_top s{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: url("../image/icons.jpg") -250px -250px;
+    margin: 20px 10px 0 10px;
+}
+.message_top .fw {
+    font-weight: bold;
+    padding: 8px 0 0  18px;
+}
+.message_top .cheap{
+    margin-top: 25px ;
+}
+.message_bottom .findeMessage{
+    text-align: center;
+    padding-top: 11px;
+    font-size: 14px;
+}
+.message_bottom .tel{
+    text-align: center;
+    font-size: 10px;
+    padding-top: 5px;
+    margin-top: 10px;
+}
+.message_bottom .tel s{
+    display: inline-block;
+    width: 14px;
+    height: 17px;
+    background: url("../image/icons.jpg") -100px -30px;
+    vertical-align: middle;
+}
+.message_bottom .btn{
+    width: 81px;
+    height: 23px;
+    background: url("../image/icons.jpg") -10px -30px;
+    margin: 9px 0 0 75px;
+    border: none;
     color: white;
 }
