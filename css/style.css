@@ -222,8 +222,7 @@ a{
 .product .product_r{
     width: 230px;
     height: 345px;
-    background: bisque;
-
+    border: 1px solid #CCC;
 }
 
 .product .product_l_top{
@@ -295,4 +294,44 @@ a{
     margin:  0 4px 0 4px;
     border-top: 1px solid #CCC;
 
+}
+.product .product_r h2{
+    height: 28px;
+    line-height: 28px;
+    padding-left: 15px;
+    border-bottom: solid 1px #E0E6F0;
+}
+
+.product .product_r ul{
+    padding-left: 26px;
+    padding-top: 11px;
+}
+
+.product .product_r li{
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+}
+.child{
+    width: 970px;
+    height: 100px;
+    margin: 0 auto;
+    background: green;
+    margin-top: 10px;
+}
+.link{
+    width: 970px;
+    height: 103px;
+    margin: 0 auto;
+    margin-top: 11px;
+    border-top: solid 1px #DDDDDD;
+    color: #666666;
+
+}
+.link .link_title{
+    margin-top: 30px;
+}
+.link .link_content{
+    margin-top: 14px;
+    margin-left: 61px;
 }
